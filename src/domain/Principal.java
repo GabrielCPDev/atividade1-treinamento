@@ -17,8 +17,7 @@ public class Principal {
 			palavraAoContrario = palavraAoContrario + palavra.charAt(i);
         }
 
-		if (palavraAoContrario.toLowerCase().equals(palavra.toLowerCase()) || 
-				palavraAoContrario.toLowerCase().getBytes().length == palavra.toLowerCase().getBytes().length) {
+		if (palavraAoContrario.toLowerCase().equals(palavra.toLowerCase()) ) {
             System.out.println("A palavra inserida é um palíndromo!");
         } else {
             System.out.println("A palavra inserida não é um palíndromo");
